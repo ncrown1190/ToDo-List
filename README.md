@@ -44,3 +44,17 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## uuid for typescript
+npm i @types/uuid
+
+## for gh pages
+npm install gh-pages --save-dev
+and in pakage.json add  "homepage": "https://ncrown1190.github.io/ToDo-List",
+and also under script add
+"predeploy": "npm run build",
+    "deploy": "gh-pages -d build", and save the file
+ git add .
+ git commit -m "--"
+ git push
+ then run --> npm run deploy
